@@ -35,7 +35,7 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   // PIR sensor calibration
-  Serial.println("Calibrating PIR (30 sec)...");
+  Serial.println("Calibrating PIR (10 sec)...");
   for (int i = 0; i < 10; i++) {
     Serial.print(".");
     delay(500);
